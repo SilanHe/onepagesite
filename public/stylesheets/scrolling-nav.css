@@ -67,9 +67,9 @@ html {
 #profile .row > div { margin-bottom: 20px; }
 #profile .row > div img { width: 100%; max-width: 246px; height: auto; }
 
-.projects { margin-left: 30px; text-align: left;}
+.projects { margin-left: 0px; text-align: left;}
 
-.project-wrapper .project-content { margin-left: 30px; margin-bottom: 30px; }
+.project-wrapper .project-content { margin-left: 0px; margin-bottom: 30px; }
 .project-wrapper .project-content ul {display:inline;}
 .project-wrapper .project-content span { padding: 3px 4px; border: medium solid black; border-radius: 3px; line-height: 2; margin:5px;}
 
@@ -129,7 +129,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 150%;
-    text-align: center;
+    text-align: left;
     background: #fff;
 }
 
