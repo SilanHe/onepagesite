@@ -80,8 +80,8 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     padding-top: 100px;
-    height: 100%;
     padding-bottom: 150px;
+    min-height: 100%;
     text-align: center;
     background-color: #22A39F;
     background-image: url("/images/montreal.jpg");
@@ -92,7 +92,8 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     padding-top: 100px;
-     padding-bottom: 100px;
+    padding-bottom: 100px;
+    min-height: 90%;
     text-align: center;
     background: #eee;
 }
@@ -100,6 +101,7 @@ of those sections to manage the look and feel of the site. */
 .experience-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 120%;
     text-align: left;
     background: #fff;
 }
@@ -107,6 +109,7 @@ of those sections to manage the look and feel of the site. */
 .education-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 100%;
     text-align: left;
     background: #eee;
 }
@@ -114,6 +117,7 @@ of those sections to manage the look and feel of the site. */
 .projects-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 150%;
     text-align: center;
     background: #fff;
 }
@@ -121,6 +125,7 @@ of those sections to manage the look and feel of the site. */
 .contact-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 100%;
     text-align: center;
     background: #023c40;
     color: #fbfbff;
