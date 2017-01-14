@@ -41,7 +41,7 @@ html {
     height: 100%;
 }
 
-@media(min-width:50px) {
+@media(min-width:10px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .4s ease-in-out,padding .4s ease-in-out;
@@ -70,6 +70,7 @@ html {
 .projects { margin-left: 30px; text-align: left;}
 
 .project-wrapper .project-content { margin-left: 30px; margin-bottom: 30px; }
+.project-wrapper .project-content ul {display:inline;}
 .project-wrapper .project-content span { padding: 3px 4px; border: medium solid black; border-radius: 3px; line-height: 2; margin:5px;}
 
 
@@ -79,8 +80,10 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
+    padding-left:3%;
+    padding-right:3%;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     min-height: 100%;
     text-align: center;
     background-color: #22A39F;
@@ -91,6 +94,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
+    padding-left:3%;
+    padding-right:3%;
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 90%;
@@ -99,6 +104,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .experience-section {
+    padding-left:3%;
+    padding-right:3%;
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 80%;
@@ -107,6 +114,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .education-section {
+    padding-left:3%;
+    padding-right:3%;
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 100%;
@@ -115,6 +124,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .projects-section {
+    padding-left:3%;
+    padding-right:3%;
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 150%;
@@ -123,6 +134,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
+    padding-left:3%;
+    padding-right:3%;
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 100%;
