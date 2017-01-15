@@ -17,12 +17,12 @@ h2,h3 { font-weight: 300; color: #22A39F; }
 h1 { font-size: 100px; }
 h2 { font-size: 54px; text-align: center;}
 h3 { font-size: 28px; text-align: left}
-h5,h6 {color:#fbfbff;}
-h5 {font-size: 100px;}
+h1,h6 {color:#fbfbff;}
+h5 {font-size: 54px; color:#fbfbff;}
 h6 {font-size: 30px;}
 
 /** Links */
-a { color: #fbfbff; text-decoration: none; }
+a { color: #39a0ed; text-decoration: none; }
 a:visited { color: #4c6085; }
 a:hover { color: #4c6085; text-decoration: underline; }
 
