@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { margin-bottom:
 h1,h4 { font-weight: 700; margin-bottom: 10px;}
 h2,h3 { font-weight: 300; color: #22A39F; }
 h1 { font-size: 100px; }
-h2 { font-size: 54px; text-align: center; }
-h3 { font-size: 28px; }
+h2 { font-size: 54px; text-align: center;}
+h3 { font-size: 28px; text-align: left}
 h5,h6 {color:#fbfbff;}
 h5 {font-size: 100px;}
 h6 {font-size: 30px;}
@@ -54,6 +54,22 @@ html {
     }
     
 }
+#abilities ul > li { min-height: 30px; padding: 3px 0px; }
+#abilities ul > li:hover { background: #F2F2F2; }
+#abilities ul > li .ability-title { display: inline-block; width: 60%; }
+#abilities ul > li .ability-score { float: right; }
+#abilities ul > li .ability-score .glyphicon { 
+    color: #DFE0E0; 
+    font-size: 14px; 
+     
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#abilities ul > li .ability-score .glyphicon.filled { color: #4c6085; }
+
+#abilities ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
 
 #experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
 #experiences .experience .experience-details .seperator { display: none; }
@@ -131,6 +147,16 @@ of those sections to manage the look and feel of the site. */
     min-height: 150%;
     text-align: left;
     background: #fff;
+}
+
+.abilities-section {
+    padding-left:3%;
+    padding-right:3%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 100%;
+    text-align: center;
+    background: #eee;
 }
 
 .contact-section {
