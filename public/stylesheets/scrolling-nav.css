@@ -22,8 +22,8 @@ h5 {font-size: 100px;}
 h6 {font-size: 30px;}
 
 /** Links */
-a { color: #39a0ed; text-decoration: none; }
-a:visited { color: #1756a9; }
+a { color: #fbfbff; text-decoration: none; }
+a:visited { color: #4c6085; }
 a:hover { color: #4c6085; text-decoration: underline; }
 
 ul.no-bullets { list-style-type: none; margin: 0px; padding-top: 5px; }
