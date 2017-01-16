@@ -32,7 +32,7 @@ ul.no-bullets li { text-align:left; padding: 3px; }
 p.lead { text-align: center; color: #727878; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
 p.lead a:hover { text-decoration: none; }
-p.center {text-align: center;}
+p.center {text-align: center;font-weight: 100;}
 p.experience-period {color:#808080;}
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
 hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
