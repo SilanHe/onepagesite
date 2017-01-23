@@ -26,8 +26,10 @@ a { color: #39a0ed; text-decoration: none; }
 a:visited { color: #4c6085; }
 a:hover { color: #4c6085; text-decoration: underline; }
 
-ul.no-bullets { list-style-type: none; margin: 0px; padding-top: 5px; }
-ul.no-bullets li { text-align:left; padding: 3px; }
+
+ul.no-bullets { list-style-type: none; margin: 0px; padding-top:5px; }
+ul.no-bullets .italics {color:#A9A9A9; font-style:italic;}
+ul.no-bullets li { text-align:left; padding: 2px; padding-left:5px;}
 
 p.lead { text-align: center; color: #727878; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
