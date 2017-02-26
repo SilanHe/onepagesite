@@ -94,6 +94,7 @@ html {
 #experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
 #experiences .experience .experience-details .seperator { display: none; }
 
+.logo {text-align: center; height: 120px; width: 120px; align-self: center;}
 #experiences .experience { margin-top: 20px; margin-bottom: 20px; text-align: left; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
 #experiences .experience .experience-details { display: block; margin-top: 5px; }
