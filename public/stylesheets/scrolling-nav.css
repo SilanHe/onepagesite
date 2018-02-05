@@ -81,7 +81,16 @@ img:hover {
 }
 
 .box{ 
-    padding: 3px 4px; border: medium solid black; border-radius: 3px; line-height: 2; margin:5px;
+    padding: 3px 4px; 
+    border: medium solid black; 
+    border-radius: 3px; 
+    line-height: 2; 
+    margin:5px; 
+    min-width: 30px;
+    list-style: none;
+    display: inline-block;
+    max-width: 300px;
+    text-overflow: ellipsis
 }
 
 #abilities ul > li { min-height: 30px; padding: 3px 0px; }
