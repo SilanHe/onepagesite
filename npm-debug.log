@@ -7,7 +7,7 @@
 6 silly lifecycle onepagewebsite@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle onepagewebsite@0.0.0~start: onepagewebsite@0.0.0
 8 verbose lifecycle onepagewebsite@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle onepagewebsite@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/silanhe/Projects/Node/OnePageWebsite/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/silanhe/.rvm/gems/ruby-2.3.1/bin:/Users/silanhe/.rvm/gems/ruby-2.3.1@global/bin:/Users/silanhe/.rvm/rubies/ruby-2.3.1/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/mysql/bin:/Users/silanhe/.rvm/bin
+9 verbose lifecycle onepagewebsite@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/silanhe/Projects/Node/OnePageWebsite/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/silanhe/apache-maven-3.5.2/bin:/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/silanhe/anaconda2/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/silanhe/.rvm/gems/ruby-2.3.1/bin:/Users/silanhe/.rvm/gems/ruby-2.3.1@global/bin:/Users/silanhe/.rvm/rubies/ruby-2.3.1/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/mysql/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/silanhe/.rvm/bin
 10 verbose lifecycle onepagewebsite@0.0.0~start: CWD: /Users/silanhe/Projects/Node/OnePageWebsite
 11 silly lifecycle onepagewebsite@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle onepagewebsite@0.0.0~start: Returned: code: 1  signal: null
@@ -24,7 +24,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid onepagewebsite@0.0.0
 16 verbose cwd /Users/silanhe/Projects/Node/OnePageWebsite
-17 error Darwin 16.7.0
+17 error Darwin 17.5.0
 18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
 19 error node v6.9.2
 20 error npm  v3.10.9
