@@ -217,6 +217,7 @@ of those sections to manage the look and feel of the site. */
     color: #fbfbff;
     font-size:15px;
     font-weight:600;
+    overflow: auto;
 }
 
 .contact-section a { color: #E5E5E5; text-decoration: none; }
