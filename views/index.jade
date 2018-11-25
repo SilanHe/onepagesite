@@ -46,6 +46,8 @@ html(lang='en')
 						li
 							a.page-scroll(href='#abilities') Abilities
 						li
+							a.page-scroll(href='#cv') CV
+						li
 							a.page-scroll(href='#contact') Contact
 				// /.navbar-collapse
 			// /.container
@@ -212,6 +214,17 @@ html(lang='en')
 					.col-lg-12
 						h3 Hackathons
 					.experiences
+						.experience.row
+							.col-md-4
+								h4 Bolt X Microsoft
+								p.experience-period
+									| November 2018
+							.col-md-8
+								strong TBD
+								p.experience-details
+									span.location
+										span.glyphicon.glyphicon-map-marker
+										| 	Microsft,Montreal,Canada,Earth
 						.experience.row
 							.col-md-4
 								h4 McHacks
@@ -406,6 +419,7 @@ html(lang='en')
 				.row
 					.col-lg-12
 						h2 Projects
+						p.center some of my faves
 						hr
 						.projects
 							.project-wrapper
@@ -433,16 +447,6 @@ html(lang='en')
 									span.box Angular
 									span.box Typescript
 									span.box Scikit Learn
-							.project-wrapper
-								h4
-									a(href='https://github.com/SilanHe/2D-Collision-Game', target='_blank') 2D Physics Engine Game
-									| 
-									.glyphicon.glyphicon-map-marker
-									| 	McGill University,Montreal,Canada,Earth
-								.project-content
-									p 2D fish game with a personal implementation of a physics engine.
-									span.box C#
-									span.box Unity
 							.project-wrapper
 								h4
 									a(href='https://github.com/SilanHe/Silvers-Algorithm', target='_blank') Silvers Algorithm Simulation
@@ -508,27 +512,6 @@ html(lang='en')
 									span.box Xamarin
 									span.box MongoDB
 									span.box Node.js
-							.project-wrapper
-								h4
-									a(href='https://github.com/SilanHe/PineappleProgramsSite', target='_blank') Pineapple Programs Company Site
-									| 
-									.glyphicon.glyphicon-map-marker
-									| 	Montreal,Canada,Earth
-								.project-content
-									p Website showing off a mock company as well as animations and an email feature.
-									span.box Node.js
-									span.box JQuery
-							.project-wrapper
-								h4
-									a(href='https://github.com/micklethepickle/wheredoiapply', target='_blank') Where Do I Apply
-									| 
-									.glyphicon.glyphicon-map-marker
-									|	McHacks,McGill University,Montreal,Canada,Earth
-								.project-content
-									p A website developed for the sake of aiding students from Quebec with their University applications, by telling them where they can apply to with their current R-Score.
-									span.box JavaScript
-									span.box Node.js
-									span.box MongoDB
 		// Abilities Section
 		section.image1
 		section#abilities.abilities-section
@@ -553,23 +536,15 @@ html(lang='en')
 									span.glyphicon.glyphicon-star.filled
 									span.glyphicon.glyphicon-star.filled
 							li
-								span.ability-title Java
-								span.ability-score
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-							li
-								span.ability-title C++
-								span.ability-score
-									span.glyphicon.glyphicon-star
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-									span.glyphicon.glyphicon-star.filled
-							li
 								span.ability-title Python
+								span.ability-score
+									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star.filled
+							li
+								span.ability-title Java
 								span.ability-score
 									span.glyphicon.glyphicon-star
 									span.glyphicon.glyphicon-star.filled
@@ -592,13 +567,21 @@ html(lang='en')
 									span.glyphicon.glyphicon-star.filled
 									span.glyphicon.glyphicon-star.filled
 									span.glyphicon.glyphicon-star.filled
+							li
+								span.ability-title C++
+								span.ability-score
+									span.glyphicon.glyphicon-star
+									span.glyphicon.glyphicon-star
+									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star.filled
 					.col-md-6
 						ul.no-bullets
 							li
 								span.ability-title C
 								span.ability-score
 									span.glyphicon.glyphicon-star
-									span.glyphicon.glyphicon-star.filled
+									span.glyphicon.glyphicon-star
 									span.glyphicon.glyphicon-star.filled
 									span.glyphicon.glyphicon-star.filled
 									span.glyphicon.glyphicon-star.filled
@@ -806,6 +789,18 @@ html(lang='en')
 									span.glyphicon.glyphicon-star
 									span.glyphicon.glyphicon-star.filled
 		// Contact Section
+		section.image5
+		section#cv.cv-section
+			.container
+				.row
+					.col-md-12
+						h2.center Curriculum Vitae
+						p.center here is my value as a human being on Earth
+						hr
+						.center
+							a.btn.btn-default.glyphicon.glyphicon-file(href='https://drive.google.com/uc?export=download&id=1fxiVJr_-1AugfaAovMsAvrF3vMWtaqjj')  Download
+
+
 		section.image4
 		section#contact.contact-section
 			.container
