@@ -17,3 +17,18 @@ $(function() {
         event.preventDefault();
     });
 });
+
+
+function age(){
+    birth = new Date(1997,8,1);
+
+    var ageDifMs = Date.now() - birth.getTime();
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    age =  Math.abs(ageDate.getUTCFullYear() - 1970);
+
+    document.getElementById("age").innerHTML = age + " years old";
+}
+
+function load(){
+    age();
+}
