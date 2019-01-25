@@ -136,7 +136,7 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    background: url(/images/montreal.jpg) no-repeat center center fixed;
+    background: url(/images/maligne.jpg) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -253,7 +253,7 @@ of those sections to manage the look and feel of the site. */
 .contact-section a:visited { color: #4c6085; }
 .contact-section a:hover { color: #39a0ed; text-decoration: underline; }
 
-.image1, .image2, .image3 , .image4 , .image5{
+.image1, .image2, .image3 , .image4 , .image5, .image6, .image7, .image8{
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -276,6 +276,15 @@ of those sections to manage the look and feel of the site. */
             }
             .image5{
                 background-image: url(/images/breton.jpg);
+            }
+            .image6{
+                background-image: url(/images/walk.jpg);
+            }
+            .image7{
+                background-image: url(/images/boat.jpg);
+            }
+            .image8{
+                background-image: url(/images/maligne.jpg);
             }
 
 .glyphicon.glyphicon-file {
