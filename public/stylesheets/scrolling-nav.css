@@ -65,9 +65,18 @@ img:hover {
 
     .top-nav-collapse {
         padding: 0;
-    }
-    
+    }   
 }
+
+.bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+}
+
 .center{
     text-align: center;
 }
@@ -260,40 +269,6 @@ of those sections to manage the look and feel of the site. */
 .contact-section a { color: #E5E5E5; text-decoration: none; }
 .contact-section a:visited { color: #4c6085; }
 .contact-section a:hover { color: #39a0ed; text-decoration: underline; }
-
-.image1, .image2, .image3 , .image4 , .image5, .image6, .image7, .image8{
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                min-height: 100%;
-                width: 100%;
-
-            }
-            .image1{
-                background-image: url(../images/cave.jpg);
-            }
-            .image2{
-                background-image: url(../images/cliff.jpg);
-            }
-            .image3{
-                background-image: url(../images/montreal.jpg);
-            }
-            .image4{
-                background-image: url(../images/sun.jpg);
-            }
-            .image5{
-                background-image: url(../images/breton.jpg);
-            }
-            .image6{
-                background-image: url(../images/walk.jpg);
-            }
-            .image7{
-                background-image: url(../images/boat.jpg);
-            }
-            .image8{
-                background-image: url(../images/maligne.jpg);
-            }
 
 .glyphicon.glyphicon-file {
     font-size: 25px;
